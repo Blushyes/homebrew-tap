@@ -18,10 +18,10 @@ jobs:
     env:
       HOMEBREW_NO_AUTO_UPDATE: 1
     steps:
-      - uses: actions/checkout@v4
-      - uses: Homebrew/actions/setup-homebrew@main
+      - uses: Homebrew/actions/setup-homebrew@d482da0e602890d3160aade42e72c8556103bf04
+        with:
+          stable: true
       - name: Install and test
         run: |
-          brew tap blushyes/tap "$GITHUB_WORKSPACE"
           brew install blushyes/tap/reef
           brew test blushyes/tap/reef
