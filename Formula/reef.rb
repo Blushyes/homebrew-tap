@@ -1,28 +1,28 @@
 class Reef < Formula
   desc "Terminal workspace for browsing files, reviewing diffs, and committing changes"
   homepage "https://github.com/Blushyes/reef"
-  version "0.44.1"
+  version "0.45.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/Blushyes/reef/releases/download/v0.44.1/reef-darwin-arm64.tar.gz"
-      sha256 "85ceeac6e6d11a8eea02053b13e43a37ec187ec9f113f3ae7779a085e277ca35"
+      url "https://github.com/Blushyes/reef/releases/download/v0.45.0/reef-darwin-arm64.tar.gz"
+      sha256 "d3f92329e6591fdd296f5fbaebd1ce3f7ba32ca81067c1739ff680d0deea72d9"
     end
     on_intel do
-      url "https://github.com/Blushyes/reef/releases/download/v0.44.1/reef-darwin-x64.tar.gz"
-      sha256 "b1c254678e09f7abbd55b669c3856784316c9b04c19025631e81592ae7a26e72"
+      url "https://github.com/Blushyes/reef/releases/download/v0.45.0/reef-darwin-x64.tar.gz"
+      sha256 "513ff0f0c22aab3fdd84ca52b402e027376e6e8fdef679e00404576d5d112c6b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Blushyes/reef/releases/download/v0.44.1/reef-linux-arm64.tar.gz"
-      sha256 "b31069707e375d5bb046a58f1446d0f328f3a4fca752a8026432ee26de13a1af"
+      url "https://github.com/Blushyes/reef/releases/download/v0.45.0/reef-linux-arm64.tar.gz"
+      sha256 "554513d0766cbfb44967ca4e1b1c9be9a1b3c81bae66d1078edcbc25d7809e34"
     end
     on_intel do
-      url "https://github.com/Blushyes/reef/releases/download/v0.44.1/reef-linux-x64.tar.gz"
-      sha256 "b369fa30512326ecb240cf33a920103fd718b5892d14306a991086b2054f5e0f"
+      url "https://github.com/Blushyes/reef/releases/download/v0.45.0/reef-linux-x64.tar.gz"
+      sha256 "44f99cbef4782d61b15d636b321655cdc3dc2cbff9f8068add6a894daf75cade"
     end
   end
 
